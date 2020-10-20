@@ -3,12 +3,12 @@ import sys
 import json
 import os
 
-if not os.path.exists("model2"):
+if not os.path.exists("model"):
     print ("Please download the model in this repo and unpack as 'model' in the current folder.")
     exit (1)
 
 
-model = Model("model2")
+model = Model("model")
 
 # Large vocabulary free form recognition
 rec = KaldiRecognizer(model, 8000)
