@@ -4,7 +4,7 @@ import json
 import os
 
 if not os.path.exists("model2"):
-    print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model' in the current folder.")
+    print ("Please download the model in this repo and unpack as 'model' in the current folder.")
     exit (1)
 
 
